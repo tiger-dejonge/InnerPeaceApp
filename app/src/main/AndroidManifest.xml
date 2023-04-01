@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Inner Peace"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InnerPeaceApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".OtherPage20Mins"
+            android:exported="false" />
+        <activity
+            android:name=".OtherPage15Mins"
+            android:exported="false" />
+        <activity
+            android:name=".OtherPage10Mins"
+            android:exported="false" />
+        <activity
+            android:name=".OtherPage"
+            android:exported="false" />
+        <activity
+            android:name=".ExerPage20Mins"
+            android:exported="false" />
+        <activity
+            android:name=".ExerPage15Mins"
+            android:exported="false" />
+        <activity
+            android:name=".ExerPage10Mins"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationPage20Mins"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationPage15Mins"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationPage10Mins"
+            android:exported="false" />
+        <activity
+            android:name=".OtherTimePage"
+            android:exported="false" />
+        <activity
+            android:name=".ExerTimePage"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationTimePage"
+            android:exported="false" />
+        <activity
+            android:name=".ExerPage"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

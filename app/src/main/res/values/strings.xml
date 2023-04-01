@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InnerPeaceApp</string>
+    <string name="meditation">Meditation</string>
+    <string name="meditating_pic">meditating pic</string>
+    <string-array name="time">
+        <item>5 mins</item>
+        <item>10 mins</item>
+        <item>15 mins</item>
+        <item>20 mins</item>
+    </string-array>
+    <string-array name="mood">
+        <item>&#128512;</item>
+        <item>&#128528;</item>
+        <item>&#128532;</item>
+        <item>&#128545;</item>
+        <item>&#128557;</item>
+    </string-array>
+</resources>
