@@ -108,7 +108,7 @@
     <string name="action_settings">Settings</string>
     <string-array name="language">
         <item>English</item>
-        <item>Maori</item>
+        <item>Te Reo</item>
     </string-array>
     <string-array name="voice">
         <item>Male</item>

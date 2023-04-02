@@ -37,7 +37,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="language_options" />
+                android:text="language_options"
+                android:textAlignment="viewEnd" />
 
         </LinearLayout>
 
@@ -58,7 +59,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="voice_options" />
+                android:text="voice_options"
+                android:textAlignment="viewEnd" />
 
         </LinearLayout>
 
