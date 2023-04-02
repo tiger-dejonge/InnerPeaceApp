@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
-
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class MainActivity : AppCompatActivity() {
@@ -27,5 +27,27 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, OtherTimePage::class.java)
             startActivity(intent)
         }
+        val navView: BottomNavigationView = findViewById(R.id.nav_view)
+        navView.setOnItemSelectedListener { item ->
+            when(item.itemId){
+                R.id.navigation_dashboard ->{
+
+                    val intent2 = Intent(this, MainActivity::class.java)
+                    startActivity(intent2)
+                    true
+                }
+                R.id.navigation_home ->{
+                    val intent2 = Intent(this, SettingsPage::class.java)
+                    startActivity(intent2)
+                    true
+            }
+                R.id.navigation_notifications ->{
+                    val intent2 = Intent(this, SummaryPage::class.java)
+                    startActivity(intent2)
+                    true
+                }
+                else -> false
+        }
     }
+}
 }

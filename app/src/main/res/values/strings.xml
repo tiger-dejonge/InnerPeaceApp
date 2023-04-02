@@ -106,4 +106,12 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string-array name="language">
+        <item>English</item>
+        <item>Maori</item>
+    </string-array>
+    <string-array name="voice">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 </resources>
