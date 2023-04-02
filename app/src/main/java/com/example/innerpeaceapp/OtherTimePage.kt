@@ -16,16 +16,16 @@ class OtherTimePage : AppCompatActivity() {
     fun openNewActivity() {
         val selected_time = spinner!!.selectedItem as String
         if ("5 mins" == selected_time) {
-            val intent = Intent(this, ExerPage::class.java)
+            val intent = Intent(this, OtherPage::class.java)
             startActivity(intent)
         } else if ("10 mins" == selected_time) {
-            val intent = Intent(this, ExerPage10Mins::class.java)
+            val intent = Intent(this, OtherPage10Mins::class.java)
             startActivity(intent)
         } else if ("15 mins" == selected_time) {
-            val intent = Intent(this, ExerPage15Mins::class.java)
+            val intent = Intent(this, OtherPage15Mins::class.java)
             startActivity(intent)
         } else {
-            val intent = Intent(this, ExerPage20Mins::class.java)
+            val intent = Intent(this, OtherPage20Mins::class.java)
             startActivity(intent)
         }
     }
